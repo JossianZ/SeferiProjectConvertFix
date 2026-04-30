@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "setup-media": "node scripts/complete-media-setup.js",
     "localize-media-only": "node scripts/localize-media-only.js",
     "download-media": "node scripts/download-images.js",
+    "download-missing-js": "node scripts/download-missing-js.js",
+    "find-missing-js": "node scripts/find-missing-js.js",
     "serve-public": "node scripts/serve-public.js"
   },
   "dependencies": {
