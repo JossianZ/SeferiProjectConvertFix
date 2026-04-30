@@ -1,2 +1,1895 @@
-import{t as e}from"./rolldown-runtime.OA-FSkXT.mjs";import{A as t,C as n,D as r,N as i,c as a,g as ee,l as o,o as s,v as te}from"./react.CHBg6kqC.mjs";import{C as c,r as ne,t as l}from"./motion.esWvCIpR.mjs";import{B as u,H as d,J as f,M as p,O as m,T as h,V as re,at as ie,b as g,bt as _,ct as ae,dt as v,f as oe,gt as y,h as b,i as x,lt as se,mt as ce,p as le,pt as ue,r as S,u as de,yt as fe}from"./framer.CmZHl7sd.mjs";import{a as pe,c as C,i as me,n as w,o as T,r as E,s as D,t as O}from"./x7rPEu3Pf.DlboEAZA.mjs";import{n as k,t as A}from"./Feather.BAfihiJ0.mjs";import{c as j,n as M,s as N,t as P}from"./DeRVvuu4e.Ct5XeMnw.mjs";import{n as F,t as I}from"./eYNInGOUI.CDo8GoRM.mjs";import{n as L,r as he}from"./ftj9Wtl0w.DVkqapWK.mjs";function R(e,t){for(;t;){let n=B[t.id];if(n){let t=n.read()[e];if(t)return t}t=t.fallback}}function z(e){let t=[];for(;e;){let n=B[e.id];if(n){let e=n.preload();e&&t.push(e)}e=e.fallback}if(t.length>0)return Promise.all(t)}function ge(e){let t=z(e);if(t)throw t}var B,V=e((()=>{f(),B={CeUi_SeJd:new le(()=>import(`./ftj9Wtl0w-0.BZEvWRvW.mjs`))}})),H,U,W,_e,G,K,ve,ye,be,xe,q,Se,Ce,we,J,Te,Ee,De,Y,Oe,ke,X,Ae,je,Me,Z,Ne,Q,Pe,Fe,Ie,Le,Re,$,ze,Be;e((()=>{s(),f(),l(),n(),k(),j(),M(),F(),me(),O(),C(),V(),L(),H=u(w),U=_(c.div),W=u(P),_e=u(N),G=_(x),K=_(h),ve=u(A),ye=u(I),be=u(E),xe={ds2v4Ve8R:`(min-width: 810px) and (max-width: 1199.98px)`,QB5_6wmS3:`(min-width: 1200px)`,xSx1N_EiT:`(max-width: 809.98px)`},q=()=>typeof document<`u`,Se=`framer-PmsYL`,Ce={ds2v4Ve8R:`framer-v-1lyqsm6`,QB5_6wmS3:`framer-v-7li15u`,xSx1N_EiT:`framer-v-1ifpsxa`},we={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,x:-100,y:0},J={damping:30,delay:0,mass:1,stiffness:150,type:`spring`},Te={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,transition:J,x:-100,y:0},Ee={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,x:0,y:20},De={delay:.2,duration:.5,ease:[.44,0,.56,1],type:`tween`},Y={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,x:0,y:30},Oe={delay:.3,duration:.8,ease:[.44,0,0,1],type:`tween`},ke={delay:.2,duration:.6,ease:[.44,0,0,1],type:`tween`},X={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1.1,skewX:0,skewY:0,transition:{bounce:.25,delay:0,duration:.45,type:`spring`}},Ae={delay:.3,duration:.6,ease:[.44,0,0,1],type:`tween`},je={delay:.4,duration:.6,ease:[.44,0,0,1],type:`tween`},Me={delay:.5,duration:.6,ease:[.44,0,0,1],type:`tween`},Z={delay:.6,duration:.6,ease:[.44,0,0,1],type:`tween`},Ne={delay:.7,duration:.6,ease:[.44,0,0,1],type:`tween`},Q={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:30},Pe={delay:.2,duration:.7,ease:[.4,0,0,1],type:`tween`},Fe={delay:.4,duration:.7,ease:[.4,0,0,1],type:`tween`},Ie=({value:e})=>v()?null:a(`style`,{dangerouslySetInnerHTML:{__html:e},"data-framer-html-style":``}),Le={Desktop:`QB5_6wmS3`,Phone:`xSx1N_EiT`,Tablet:`ds2v4Ve8R`},Re=({height:e,id:t,width:n,...r})=>({...r,variant:Le[r.variant]??r.variant??`QB5_6wmS3`}),$=fe(ee(function(e,n){let ee=r(null),s=n??ee,l=te(),{activeLocale:u,setLocale:f}=ue(),m=ie(),{style:re,className:_,layoutId:v,variant:le,...fe}=Re(e);ce(t(()=>he({},u),[u]));let[C,me]=se(le,xe,!1),T=p(Se,pe),D=()=>!q()||C===`xSx1N_EiT`;ge(u);let O=()=>!q()||C===`ds2v4Ve8R`,k=y(`UeW8M8x6r`),j=r(null),M=y(`HH2E4mc9g`),F=r(null),L=()=>q()?![`ds2v4Ve8R`,`xSx1N_EiT`].includes(C):!0,z=y(`OVVQvoABH`),B=r(null),V=y(`MqzH8etJH`),H=r(null);return ae({}),a(de.Provider,{value:{primaryVariantId:`QB5_6wmS3`,variantClassNames:Ce},children:o(ne,{id:v??l,children:[a(Ie,{value:`html body { background: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23)); }`}),o(c.div,{...fe,className:p(T,`framer-7li15u`,_),ref:s,style:{...re},children:[o(`div`,{className:`framer-xg7dm1`,"data-framer-name":`About Us`,children:[D()&&a(g,{breakpoint:C,overrides:{xSx1N_EiT:{height:64,width:`390px`,y:(m?.y||0)+0+0+120+0}},children:a(S,{children:a(x,{className:`framer-4m3ga6-container hidden-7li15u hidden-1lyqsm6`,layoutScroll:!0,nodeId:`fAT4w8FSL`,scopeId:`ftj9Wtl0w`,children:a(w,{height:`100%`,id:`fAT4w8FSL`,layoutId:`fAT4w8FSL`,style:{width:`100%`},variant:`q4awZQzBC`,width:`100%`})})})}),o(`div`,{className:`framer-omzv64`,"data-framer-name":`Content`,children:[o(U,{__framer__animate:{transition:J},__framer__animateOnce:!0,__framer__enter:we,__framer__exit:Te,__framer__styleAppearEffectEnabled:!0,__framer__threshold:0,__perspectiveFX:!1,__targetOpacity:1,className:`framer-1r39haz`,"data-framer-name":`Title & Description`,style:{transformPerspective:1200},children:[a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{children:R(`v1`,u)??a(i,{children:o(`h1`,{style:{"--font-selector":`SW50ZXItU2VtaUJvbGQ=`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`45px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-1.5px`,"--framer-line-height":`44px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`},children:[`Seferi'nin Arkasında `,a(`span`,{style:{"--framer-text-color":`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`},children:`Deneyim `}),`Var`]})})},xSx1N_EiT:{children:R(`v2`,u)??a(i,{children:o(`h1`,{style:{"--font-selector":`SW50ZXItU2VtaUJvbGQ=`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`45px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-1.5px`,"--framer-line-height":`44px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`},children:[`Seferi'nin Arkasında `,a(`span`,{style:{"--framer-text-color":`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`},children:`Deneyim `}),`Var`]})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v0`,u)??a(i,{children:o(`h1`,{style:{"--font-selector":`SW50ZXItU2VtaUJvbGQ=`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`50px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-1.5px`,"--framer-line-height":`44px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`},children:[`Seferi'nin Arkasında `,a(`span`,{style:{"--framer-text-color":`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`},children:`Deneyim `}),`Var`]})}),className:`framer-1acfi4t`,fonts:[`Inter-SemiBold`],verticalAlignment:`top`,withExternalLayout:!0})}),a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{children:R(`v4`,u)??a(i,{children:o(`p`,{style:{"--framer-font-size":`20px`,"--framer-letter-spacing":`0px`,"--framer-line-height":`30px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`},children:[`Seferi, `,a(b,{href:`https://siriusaitech.com/`,motionChild:!0,nodeId:`EdcC0Hheb`,openInNewTab:!0,relValues:[],scopeId:`ftj9Wtl0w`,smoothScroll:!1,children:a(c.a,{className:`framer-styles-preset-7ybpp4`,"data-styles-preset":`sUz0RkfT4`,children:`Sirius AI Tech`})}),`’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]})})},xSx1N_EiT:{children:R(`v5`,u)??a(i,{children:o(`p`,{style:{"--framer-font-size":`20px`,"--framer-letter-spacing":`0px`,"--framer-line-height":`30px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`},children:[`Seferi, `,a(b,{href:`https://siriusaitech.com/`,motionChild:!0,nodeId:`EdcC0Hheb`,openInNewTab:!0,relValues:[],scopeId:`ftj9Wtl0w`,smoothScroll:!1,children:a(c.a,{className:`framer-styles-preset-7ybpp4`,"data-styles-preset":`sUz0RkfT4`,children:`Sirius AI Tech`})}),`’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v3`,u)??a(i,{children:o(`p`,{style:{"--framer-font-size":`20px`,"--framer-letter-spacing":`0px`,"--framer-line-height":`30px`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`},children:[`Seferi, `,a(b,{href:`https://siriusaitech.com/`,motionChild:!0,nodeId:`EdcC0Hheb`,openInNewTab:!0,relValues:[],scopeId:`ftj9Wtl0w`,smoothScroll:!1,children:a(c.a,{className:`framer-styles-preset-7ybpp4`,"data-styles-preset":`sUz0RkfT4`,children:`Sirius AI Tech`})}),`’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]})}),className:`framer-110i2mw`,fonts:[`Inter`],verticalAlignment:`top`,withExternalLayout:!0})})]}),a(`div`,{className:`framer-1oy0ue8`,children:a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{background:{alt:``,fit:`fill`,loading:d((m?.y||0)+0+0+120+0+236+0),pixelHeight:4e3,pixelWidth:3275,positionX:`center`,positionY:`center`,sizes:`715px`,src:`/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg`,srcSet:`/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 838w,/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 1676w,/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 3275w`}},xSx1N_EiT:{background:{alt:``,fit:`fill`,loading:d((m?.y||0)+0+0+120+100+7+257+0),pixelHeight:1786,pixelWidth:3441,positionX:`left`,positionY:`center`,sizes:`366px`,src:`/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg`,srcSet:`/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 512w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 1024w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 2048w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 3441w`}}},children:a(oe,{background:{alt:``,fit:`fill`,loading:d((m?.y||0)+0+0+120+0+0),pixelHeight:4e3,pixelWidth:3719,positionX:`left`,positionY:`center`,sizes:`450px`,src:`/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg`,srcSet:`/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 952w,/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 1904w,/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 3719w`},className:`framer-1yjsy6n`})})})]}),O()&&a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{height:64,width:`810px`,y:(m?.y||0)+0+0+311.5}},children:a(S,{children:a(x,{className:`framer-eykz2x-container hidden-7li15u hidden-1ifpsxa`,layoutScroll:!0,nodeId:`wIAtLFE1E`,scopeId:`ftj9Wtl0w`,children:a(w,{height:`100%`,id:`wIAtLFE1E`,layoutId:`wIAtLFE1E`,style:{width:`100%`},variant:`q4awZQzBC`,width:`100%`})})})})]}),a(g,{breakpoint:C,overrides:{xSx1N_EiT:{y:(m?.y||0)+0+742}},children:a(S,{height:1006,width:m?.width||`100vw`,y:(m?.y||0)+0+647,children:a(x,{className:`framer-1f6oe3g-container`,id:k,nodeId:`UeW8M8x6r`,ref:j,scopeId:`ftj9Wtl0w`,children:a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{variant:`b63FFBTHj`},xSx1N_EiT:{variant:`oh4vGbtdG`}},children:a(P,{A3_alzF14:{borderBottomWidth:1,borderColor:`var(--token-e0a3f9cc-042c-4657-97ac-f0d618aaff9b, rgba(0, 0, 0, 0.2))`,borderLeftWidth:0,borderRightWidth:0,borderStyle:`solid`,borderTopWidth:0},height:`100%`,id:`UeW8M8x6r`,layoutId:`UeW8M8x6r`,style:{width:`100%`},variant:`qde4x5f3Z`,width:`100%`})})})})}),o(`section`,{className:`framer-1qm5kfg`,"data-framer-name":`Features`,id:M,ref:F,children:[a(`div`,{className:`framer-15ragto`,"data-framer-name":`Heading & badge`,children:o(`div`,{className:`framer-xbb73p`,"data-framer-name":`Heading & Badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{y:(m?.y||0)+0+1748+80+0+0+0+0+0}},children:a(S,{height:28,y:(m?.y||0)+0+1653+41+0+0+0+0+0,children:a(G,{__framer__animate:{transition:De},__framer__animateOnce:!0,__framer__enter:Ee,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-1bbtic7-container`,isModuleExternal:!0,nodeId:`tGHLpNxiZ`,rendersWithMotion:!0,scopeId:`ftj9Wtl0w`,style:{transformPerspective:1200},children:a(N,{H66JozB37:R(`v6`,u)??`Hakkımızda`,height:`100%`,id:`tGHLpNxiZ`,Jh72zJwEj:`var(--token-230862fa-ae0f-43fa-8a3c-2eb328ca5eb4, rgb(0, 149, 255))`,layoutId:`tGHLpNxiZ`,OVPxVBpAp:`var(--token-230862fa-ae0f-43fa-8a3c-2eb328ca5eb4, rgb(0, 149, 255))`,variant:`yHZcb1tHJ`,wdibwMZO8:`rgba(0, 149, 255, 0.2)`,width:`100%`})})})}),a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v8`,u)??a(i,{children:a(`h2`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`46px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-1.5px`,"--framer-line-height":`115%`,"--framer-text-alignment":`center`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Prensiplerimiz`})})}},children:a(K,{__framer__animate:{transition:Oe},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__fromCanvasComponent:!0,__perspectiveFX:!1,__targetOpacity:1,children:R(`v7`,u)??a(i,{children:a(`h2`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`46px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-1.5px`,"--framer-line-height":`110%`,"--framer-text-alignment":`center`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Prensiplerimiz`})}),className:`framer-sqhp95`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],style:{transformPerspective:1200},verticalAlignment:`top`,withExternalLayout:!0})})]})}),o(`div`,{className:`framer-uctoao`,"data-framer-name":`Container`,children:[o(`div`,{className:`framer-1ot9atf`,"data-framer-name":`Row`,children:[o(U,{__framer__animate:{transition:ke},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-kxwu5z`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-1f6its1`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-9d8a37-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`l2xWMyhVe`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`sidebar`,id:`l2xWMyhVe`,layoutId:`l2xWMyhVe`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-1rvwvrz`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v11`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Şeffaflık`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v10`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Şeffaflık`})}),className:`framer-sq7w0i`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v12`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Müşterilerimizin lojistik süreçlerinin her aşamasına hakim olmasını sağlamak için şeffaf bir yaklaşım benimsiyoruz. Gerçek zamanlı izleme ve raporlama özelliklerimiz sayesinde, müşterilerimiz her aşamada sürecin içinde kalabilir ve güvenle teslimatlarını yönetebilir.`})}),className:`framer-xdkjwa`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]}),o(U,{__framer__animate:{transition:Ae},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-1st75vm`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-b0q688`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-1c3k3d1-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`LKd_Y2GqJ`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`shield`,id:`LKd_Y2GqJ`,layoutId:`LKd_Y2GqJ`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-1izpm24`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v14`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Güvenilirlik`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v13`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Güvenilirlik`})}),className:`framer-tlpb1m`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v15`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Seferi olarak, tüm müşterilerimizin lojistik süreçlerinde güvenilir bir iş ortağı olmayı hedefliyoruz. Veriye dayalı karar alma süreçlerimiz ve güvenli otomasyon sistemimizle, her teslimatın zamanında ve doğru şekilde yapılmasını sağlıyoruz.`})}),className:`framer-taiqlb`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]}),o(U,{__framer__animate:{transition:je},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-1ite788`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-1gzhq6x`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-v3yt0z-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`pa9Bs69yT`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`user`,id:`pa9Bs69yT`,layoutId:`pa9Bs69yT`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-f88jnq`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v17`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Müşteri Odaklı`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v16`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Müşteri Odaklı`})}),className:`framer-1fgghmb`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v18`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Müşteri memnuniyeti, tüm faaliyetlerimizin merkezinde yer alır. Müşterilerimizin ihtiyaçlarını anlamak, süreçleri onlar için daha basit ve etkili hale getirmek en büyük önceliğimizdir. Bu sayede, sadece hizmet sağlamakla kalmaz, aynı zamanda güvenilir bir çözüm ortağı oluruz.`})}),className:`framer-ad5stj`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]})]}),o(`div`,{className:`framer-zcvpk2`,"data-framer-name":`Row`,children:[o(U,{__framer__animate:{transition:Me},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-vloqvf`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-1sd3vdk`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-1pgk8o0-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`XUdnuDKP5`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`maximize`,id:`XUdnuDKP5`,layoutId:`XUdnuDKP5`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-lqti68`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v20`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Profesyonel`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v19`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Profesyonel`})}),className:`framer-1vdmhq3`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v21`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Lojistik otomasyonu alanında uzman bir ekip olarak, her aşamada profesyonel bir yaklaşım sergiliyoruz. Mükemmeliyet ve kaliteye olan bağlılığımız, müşterilerimize en iyi hizmeti sunmak için gerekli titizliği ve sorumluluğu taşıdığımızın bir göstergesidir.`})}),className:`framer-io5r36`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]}),o(U,{__framer__animate:{transition:Z},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-gau0y9`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-rcwvix`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-1hwfmkm-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`rz6V7m2mo`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`arrow-up`,id:`rz6V7m2mo`,layoutId:`rz6V7m2mo`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-1mb4n72`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v23`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Yenilikçi`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v22`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Yenilikçi`})}),className:`framer-nwbdot`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v24`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Seferi olarak, lojistik dünyasında yenilikçi bir yaklaşımla hareket ediyoruz. Sürekli gelişen AI teknolojilerimizle operasyonları optimize ederken, sektördeki en yeni gelişmeleri takiben, gerekli güncellemeleri müşterilerimizin hizmetine sunuyoruz. `})}),className:`framer-y56wu3`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]}),o(U,{__framer__animate:{transition:Ne},__framer__animateOnce:!0,__framer__enter:Y,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:F,target:`animate`}],__framer__threshold:1,__perspectiveFX:!1,__targetOpacity:1,className:`framer-1gkoo9s`,"data-border":!0,"data-framer-name":`Item-Col`,style:{transformPerspective:1200},whileHover:X,children:[a(`div`,{className:`framer-c1gxwh`,"data-framer-name":`Icon Container`,children:a(S,{children:a(x,{className:`framer-19o2ut5-container`,isAuthoredByUser:!0,isModuleExternal:!0,nodeId:`Z4s2Jhkcq`,scopeId:`ftj9Wtl0w`,children:a(A,{color:`var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,height:`100%`,iconSearch:R(`v9`,u)??`Home`,iconSelection:`globe`,id:`Z4s2Jhkcq`,layoutId:`Z4s2Jhkcq`,mirrored:!1,selectByList:!0,style:{height:`100%`,width:`100%`},width:`100%`})})})}),o(`div`,{className:`framer-v6kwzc`,"data-framer-name":`Heading and badge`,children:[a(g,{breakpoint:C,overrides:{xSx1N_EiT:{children:R(`v26`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`20px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Sürdürülebilir`})})}},children:a(h,{__fromCanvasComponent:!0,children:R(`v25`,u)??a(i,{children:a(`h3`,{style:{"--font-selector":`R0Y7SW50ZXItNjAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-size":`22px`,"--framer-font-weight":`600`,"--framer-letter-spacing":`-0.5px`,"--framer-line-height":`120%`,"--framer-text-alignment":`left`,"--framer-text-color":`var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`},children:`Sürdürülebilir`})}),className:`framer-1kuagfv`,"data-framer-name":`Heading`,fonts:[`GF;Inter-600`],verticalAlignment:`top`,withExternalLayout:!0})}),a(h,{__fromCanvasComponent:!0,children:R(`v27`,u)??a(i,{children:a(`p`,{style:{"--font-selector":`R0Y7SW50ZXItNTAw`,"--framer-font-family":`"Inter", "Inter Placeholder", sans-serif`,"--framer-font-weight":`500`,"--framer-line-height":`140%`,"--framer-text-color":`var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`},children:`Seferi olarak, çevre dostu çözümler geliştirerek lojistikte sürdürülebilirliği önceliğimiz haline getiriyoruz. Enerji verimliliğini artıran optimizasyonlarla karbon ayak izini azaltmaya destek oluyoruz. Gelecek için sorumluluk alarak, çevreye duyarlı bir iş modeli benimsiyoruz.`})}),className:`framer-jjfniz`,"data-framer-name":`Text`,fonts:[`GF;Inter-500`],verticalAlignment:`top`,withExternalLayout:!0})]})]})]})]})]}),L()&&a(S,{height:64,width:`100vw`,y:0,children:a(x,{className:`framer-kcrlif-container hidden-1lyqsm6 hidden-1ifpsxa`,layoutScroll:!0,nodeId:`DtM1lk9O_`,scopeId:`ftj9Wtl0w`,children:a(w,{height:`100%`,id:`DtM1lk9O_`,layoutId:`DtM1lk9O_`,style:{width:`100%`},variant:`sP8HpGRRA`,width:`100%`})})}),a(`section`,{className:`framer-1n2pzpz`,"data-framer-name":`FAQ`,id:z,ref:B,children:o(`div`,{className:`framer-hx9q8w`,"data-framer-name":`Container`,id:V,ref:H,children:[a(`div`,{className:`framer-1u26p8b`,"data-framer-name":`Content`,children:a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{__framer__targets:void 0,children:R(`v29`,u)??a(i,{children:a(`h2`,{style:{"--font-selector":`R0Y7UG9wcGlucy01MDA=`,"--framer-font-family":`"Poppins", "Poppins Placeholder", sans-serif`,"--framer-font-size":`46px`,"--framer-font-weight":`500`,"--framer-letter-spacing":`-2px`,"--framer-text-alignment":`center`,"--framer-text-color":`var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`},children:`Sıkça Sorulan Sorular (SSS)`})})},xSx1N_EiT:{__framer__targets:void 0,children:R(`v30`,u)??a(i,{children:a(`h2`,{style:{"--font-selector":`R0Y7UG9wcGlucy01MDA=`,"--framer-font-family":`"Poppins", "Poppins Placeholder", sans-serif`,"--framer-font-size":`34px`,"--framer-font-weight":`500`,"--framer-letter-spacing":`-2px`,"--framer-text-alignment":`center`,"--framer-text-color":`var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`},children:`Sıkça Sorulan Sorular (SSS)`})})}},children:a(K,{__framer__animate:{transition:Pe},__framer__animateOnce:!0,__framer__enter:Q,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:H,target:`animate`}],__framer__threshold:.5,__fromCanvasComponent:!0,__perspectiveFX:!1,__targetOpacity:1,children:R(`v28`,u)??a(i,{children:a(`h2`,{style:{"--font-selector":`R0Y7UG9wcGlucy01MDA=`,"--framer-font-family":`"Poppins", "Poppins Placeholder", sans-serif`,"--framer-font-size":`58px`,"--framer-font-weight":`500`,"--framer-letter-spacing":`-2px`,"--framer-text-alignment":`center`,"--framer-text-color":`var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`},children:`Sıkça Sorulan Sorular (SSS)`})}),className:`framer-1quin7s`,fonts:[`GF;Poppins-500`],verticalAlignment:`top`,withExternalLayout:!0})})}),a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{width:`min(${m?.width||`100vw`} - 60px, 874px)`,y:(m?.y||0)+0+2985.6+55+0+100.2},xSx1N_EiT:{width:`min(${m?.width||`100vw`} - 40px, 874px)`,y:(m?.y||0)+0+4374.9+40+0+0+60.8}},children:a(S,{height:478,width:`min((${m?.width||`100vw`} - 120px) * 0.81, 874px)`,y:(m?.y||0)+0+2659.6+90+0+129.6,children:a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{__framer__targets:void 0},xSx1N_EiT:{__framer__targets:void 0}},children:a(G,{__framer__animate:{transition:Fe},__framer__animateOnce:!0,__framer__enter:Q,__framer__styleAppearEffectEnabled:!0,__framer__targets:[{ref:H,target:`animate`}],__framer__threshold:.5,__perspectiveFX:!1,__targetOpacity:1,className:`framer-ydx2or-container`,nodeId:`MAGYWuwOv`,rendersWithMotion:!0,scopeId:`ftj9Wtl0w`,children:a(I,{height:`100%`,id:`MAGYWuwOv`,layoutId:`MAGYWuwOv`,style:{maxWidth:`100%`,width:`100%`},width:`100%`})})})})})]})}),L()&&a(S,{height:623,width:m?.width||`100vw`,y:(m?.y||0)+0+3420.2,children:a(x,{className:`framer-1tzl729-container hidden-1lyqsm6 hidden-1ifpsxa`,nodeId:`dMWeejvuw`,scopeId:`ftj9Wtl0w`,children:a(E,{height:`100%`,id:`dMWeejvuw`,layoutId:`dMWeejvuw`,style:{width:`100%`},variant:`nWLoci_VY`,width:`100%`})})}),D()&&a(g,{breakpoint:C,overrides:{xSx1N_EiT:{height:623,width:m?.width||`100vw`,y:(m?.y||0)+0+4993.7}},children:a(S,{children:a(x,{className:`framer-1le87lo-container hidden-7li15u hidden-1lyqsm6`,nodeId:`XdA5O18Ic`,scopeId:`ftj9Wtl0w`,children:a(E,{height:`100%`,id:`XdA5O18Ic`,layoutId:`XdA5O18Ic`,style:{width:`100%`},variant:`IOWGBfgSg`,width:`100%`})})})}),O()&&a(g,{breakpoint:C,overrides:{ds2v4Ve8R:{height:623,width:m?.width||`100vw`,y:(m?.y||0)+0+3673.8}},children:a(S,{children:a(x,{className:`framer-3tutlh-container hidden-7li15u hidden-1ifpsxa`,nodeId:`N0sawo_5F`,scopeId:`ftj9Wtl0w`,children:a(E,{height:`100%`,id:`N0sawo_5F`,layoutId:`N0sawo_5F`,style:{width:`100%`},variant:`rxsn3pSa4`,width:`100%`})})})})]}),a(`div`,{id:`overlay`})]})})}),[`@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,`.framer-PmsYL.framer-15zhvyb, .framer-PmsYL .framer-15zhvyb { display: block; }`,`.framer-PmsYL.framer-7li15u { align-content: center; align-items: center; background-color: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, #121317); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 1200px; }`,`.framer-PmsYL .framer-xg7dm1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 36px; height: min-content; justify-content: center; overflow: hidden; padding: 120px 60px 80px 60px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-4m3ga6-container { flex: none; height: auto; left: 0px; position: relative; top: 0px; width: 390px; z-index: 1; }`,`.framer-PmsYL .framer-omzv64 { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; max-width: 1440px; overflow: visible; padding: 0px; position: relative; width: 1px; }`,`.framer-PmsYL .framer-1r39haz { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1px; }`,`.framer-PmsYL .framer-1acfi4t, .framer-PmsYL .framer-1quin7s { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,`.framer-PmsYL .framer-110i2mw, .framer-PmsYL .framer-sqhp95, .framer-PmsYL .framer-xdkjwa, .framer-PmsYL .framer-taiqlb, .framer-PmsYL .framer-ad5stj, .framer-PmsYL .framer-io5r36, .framer-PmsYL .framer-y56wu3, .framer-PmsYL .framer-jjfniz { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,`.framer-PmsYL .framer-1oy0ue8 { flex: none; height: 447px; overflow: hidden; position: relative; width: 450px; }`,`.framer-PmsYL .framer-1yjsy6n { border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 30px; flex: none; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; }`,`.framer-PmsYL .framer-eykz2x-container { flex: none; height: auto; left: 0px; position: relative; top: 0px; width: 810px; z-index: 1; }`,`.framer-PmsYL .framer-1f6oe3g-container, .framer-PmsYL .framer-1tzl729-container, .framer-PmsYL .framer-1le87lo-container, .framer-PmsYL .framer-3tutlh-container { flex: none; height: auto; position: relative; width: 100%; }`,`.framer-PmsYL .framer-1qm5kfg { align-content: center; align-items: center; background-color: var(--token-7354084b-2f3d-4256-9942-cf21fcb19d60, #f9fafb); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 41px 0px 41px 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-15ragto { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 840px; overflow: visible; padding: 0px; position: relative; width: 55%; }`,`.framer-PmsYL .framer-xbb73p { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-1bbtic7-container { flex: none; height: auto; position: relative; width: auto; }`,`.framer-PmsYL .framer-uctoao { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1280px; overflow: visible; padding: 0px 60px 0px 60px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-kxwu5z { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`,`.framer-PmsYL .framer-1f6its1, .framer-PmsYL .framer-b0q688, .framer-PmsYL .framer-1gzhq6x { align-content: center; align-items: center; background-color: #e8f4ff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 14px; position: relative; width: min-content; }`,`.framer-PmsYL .framer-9d8a37-container, .framer-PmsYL .framer-1c3k3d1-container, .framer-PmsYL .framer-v3yt0z-container, .framer-PmsYL .framer-1pgk8o0-container, .framer-PmsYL .framer-1hwfmkm-container, .framer-PmsYL .framer-19o2ut5-container { flex: none; height: 32px; position: relative; width: 28px; }`,`.framer-PmsYL .framer-1rvwvrz, .framer-PmsYL .framer-1izpm24, .framer-PmsYL .framer-f88jnq, .framer-PmsYL .framer-lqti68, .framer-PmsYL .framer-1mb4n72, .framer-PmsYL .framer-v6kwzc { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-sq7w0i, .framer-PmsYL .framer-tlpb1m, .framer-PmsYL .framer-1fgghmb, .framer-PmsYL .framer-1vdmhq3, .framer-PmsYL .framer-nwbdot, .framer-PmsYL .framer-1kuagfv { --framer-paragraph-spacing: 60px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,`.framer-PmsYL .framer-1st75vm { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 29px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`,`.framer-PmsYL .framer-1ite788 { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 13px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`,`.framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 28px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`,`.framer-PmsYL .framer-1sd3vdk, .framer-PmsYL .framer-rcwvix, .framer-PmsYL .framer-c1gxwh { align-content: center; align-items: center; background-color: #cfcfcf; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 14px; position: relative; width: min-content; }`,`.framer-PmsYL .framer-kcrlif-container { flex: none; height: auto; left: 50%; position: fixed; top: 0px; transform: translateX(-50%); width: 100%; z-index: 1; }`,`.framer-PmsYL .framer-1n2pzpz { align-content: center; align-items: center; background-color: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, #121317); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 90px 60px 63px 60px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-hx9q8w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-1u26p8b { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 30px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,`.framer-PmsYL .framer-ydx2or-container { flex: none; height: auto; max-width: 874px; position: relative; width: 81%; }`,...T,`.framer-PmsYL[data-border="true"]::after, .framer-PmsYL [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,`@media (min-width: 810px) and (max-width: 1199.98px) { .framer-PmsYL.framer-7li15u { width: 810px; } .framer-PmsYL .framer-xg7dm1 { padding: 120px 40px 80px 40px; } .framer-PmsYL .framer-omzv64 { flex-direction: column; } .framer-PmsYL .framer-1r39haz { flex: none; width: 100%; } .framer-PmsYL .framer-1oy0ue8 { border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 211px; width: 715px; will-change: var(--framer-will-change-override, transform); } .framer-PmsYL .framer-1yjsy6n { height: 155%; } .framer-PmsYL .framer-1qm5kfg { gap: 80px; } .framer-PmsYL .framer-15ragto { width: 80%; } .framer-PmsYL .framer-uctoao { max-width: unset; padding: 0px 40px 0px 40px; } .framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { gap: 24px; } .framer-PmsYL .framer-kxwu5z, .framer-PmsYL .framer-1ite788, .framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { height: 520px; min-height: 320px; } .framer-PmsYL .framer-1st75vm { gap: 80px; height: 520px; min-height: 320px; } .framer-PmsYL .framer-1n2pzpz { padding: 55px 30px 55px 30px; } .framer-PmsYL .framer-hx9q8w { gap: 45px; } .framer-PmsYL .framer-1u26p8b { gap: 25px; } .framer-PmsYL .framer-ydx2or-container { width: 100%; }}`,`@media (max-width: 809.98px) { .framer-PmsYL.framer-7li15u { width: 390px; } .framer-PmsYL .framer-xg7dm1 { flex-direction: column; padding: 120px 40px 80px 40px; } .framer-PmsYL .framer-omzv64 { flex: none; flex-direction: column; gap: 31px; padding: 7px 0px 7px 0px; width: 100%; } .framer-PmsYL .framer-1r39haz, .framer-PmsYL .framer-kxwu5z, .framer-PmsYL .framer-1st75vm, .framer-PmsYL .framer-1ite788, .framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { flex: none; width: 100%; } .framer-PmsYL .framer-1oy0ue8 { height: 171px; width: 366px; } .framer-PmsYL .framer-1qm5kfg { padding: 80px 20px 80px 20px; } .framer-PmsYL .framer-15ragto, .framer-PmsYL .framer-ydx2or-container { width: 100%; } .framer-PmsYL .framer-uctoao { gap: 24px; padding: 0px; } .framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { flex-direction: column; gap: 24px; } .framer-PmsYL .framer-1n2pzpz { flex-direction: column; padding: 40px 20px 40px 20px; } .framer-PmsYL .framer-hx9q8w, .framer-PmsYL .framer-1u26p8b { gap: 20px; }}`],`framer-PmsYL`),ze=$,$.displayName=`Page`,$.defaultProps={height:4022,width:1200},m($,[{explicitInter:!0,fonts:[{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,url:`/fonts/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,url:`/fonts/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+1F00-1FFF`,url:`/fonts/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0370-03FF`,url:`/fonts/lEJLP4R0yuCaMCjSXYHtJw72M.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,url:`/fonts/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,url:`/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,url:`/fonts/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,url:`/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,url:`/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+1F00-1FFF`,url:`/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0370-03FF`,url:`/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,url:`/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,url:`/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`framer`,style:`normal`,uiFamilyName:`Inter`,unicodeRange:`U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,url:`/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,weight:`400`},{cssFamilyName:`Inter`,source:`google`,style:`normal`,uiFamilyName:`Inter`,url:`https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2`,weight:`600`},{cssFamilyName:`Inter`,source:`google`,style:`normal`,uiFamilyName:`Inter`,url:`https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2`,weight:`500`},{cssFamilyName:`Poppins`,source:`google`,style:`normal`,uiFamilyName:`Poppins`,url:`https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9V15vFP-KUEg.woff2`,weight:`500`}]},...H,...W,..._e,...ve,...ye,...be,...re(D)],{supportsExplicitInterCodegen:!0}),Be={exports:{default:{type:`reactComponent`,name:`Framerftj9Wtl0w`,slots:[],annotations:{framerContractVersion:`1`,framerCanvasComponentVariantDetails:`{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"ds2v4Ve8R":{"layout":["fixed","auto"]},"xSx1N_EiT":{"layout":["fixed","auto"]}}}`,framerIntrinsicWidth:`1200`,framerAutoSizeImages:`true`,framerAcceptsLayoutTemplate:`true`,framerDisplayContentsDiv:`false`,framerIntrinsicHeight:`4022`,framerColorSyntax:`true`,framerComponentViewportWidth:`true`,framerScrollSections:`{"UeW8M8x6r":{"pattern":":UeW8M8x6r","name":"about"},"HH2E4mc9g":{"pattern":":HH2E4mc9g","name":"features-2"},"OVVQvoABH":{"pattern":":OVVQvoABH","name":"faq"},"MqzH8etJH":{"pattern":":MqzH8etJH","name":"faq"}}`,framerImmutableVariables:`true`,framerResponsiveScreen:``}},Props:{type:`tsType`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}}))();export{Be as __FramerMetadata__,ze as default};
+import {
+    t as e
+} from "./rolldown-runtime.OA-FSkXT.mjs";
+import {
+    A as t,
+    C as n,
+    D as r,
+    N as i,
+    c as a,
+    g as ee,
+    l as o,
+    o as s,
+    v as te
+} from "./react.CHBg6kqC.mjs";
+import {
+    C as c,
+    r as ne,
+    t as l
+} from "./motion.esWvCIpR.mjs";
+import {
+    B as u,
+    H as d,
+    J as f,
+    M as p,
+    O as m,
+    T as h,
+    V as re,
+    at as ie,
+    b as g,
+    bt as _,
+    ct as ae,
+    dt as v,
+    f as oe,
+    gt as y,
+    h as b,
+    i as x,
+    lt as se,
+    mt as ce,
+    p as le,
+    pt as ue,
+    r as S,
+    u as de,
+    yt as fe
+} from "./framer.CmZHl7sd.mjs";
+import {
+    a as pe,
+    c as C,
+    i as me,
+    n as w,
+    o as T,
+    r as E,
+    s as D,
+    t as O
+} from "./x7rPEu3Pf.DlboEAZA.mjs";
+import {
+    n as k,
+    t as A
+} from "./Feather.BAfihiJ0.mjs";
+import {
+    c as j,
+    n as M,
+    s as N,
+    t as P
+} from "./DeRVvuu4e.Ct5XeMnw.mjs";
+import {
+    n as F,
+    t as I
+} from "./eYNInGOUI.CDo8GoRM.mjs";
+import {
+    n as L,
+    r as he
+} from "./ftj9Wtl0w.DVkqapWK.mjs";
+
+function R(e, t) {
+    for (; t;) {
+        let n = B[t.id];
+        if (n) {
+            let t = n.read()[e];
+            if (t) return t
+        }
+        t = t.fallback
+    }
+}
+
+function z(e) {
+    let t = [];
+    for (; e;) {
+        let n = B[e.id];
+        if (n) {
+            let e = n.preload();
+            e && t.push(e)
+        }
+        e = e.fallback
+    }
+    if (t.length > 0) return Promise.all(t)
+}
+
+function ge(e) {
+    let t = z(e);
+    if (t) throw t
+}
+var B, V = e((() => {
+        f(), B = {
+            CeUi_SeJd: new le(() => import(`./ftj9Wtl0w-0.BZEvWRvW.mjs`))
+        }
+    })),
+    H, U, W, _e, G, K, ve, ye, be, xe, q, Se, Ce, we, J, Te, Ee, De, Y, Oe, ke, X, Ae, je, Me, Z, Ne, Q, Pe, Fe, Ie, Le, Re, $, ze, Be;
+e((() => {
+    s(), f(), l(), n(), k(), j(), M(), F(), me(), O(), C(), V(), L(), H = u(w), U = _(c.div), W = u(P), _e = u(N), G = _(x), K = _(h), ve = u(A), ye = u(I), be = u(E), xe = {
+        ds2v4Ve8R: `(min-width: 810px) and (max-width: 1199.98px)`,
+        QB5_6wmS3: `(min-width: 1200px)`,
+        xSx1N_EiT: `(max-width: 809.98px)`
+    }, q = () => typeof document < `u`, Se = `framer-PmsYL`, Ce = {
+        ds2v4Ve8R: `framer-v-1lyqsm6`,
+        QB5_6wmS3: `framer-v-7li15u`,
+        xSx1N_EiT: `framer-v-1ifpsxa`
+    }, we = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transformPerspective: 1200,
+        x: -100,
+        y: 0
+    }, J = {
+        damping: 30,
+        delay: 0,
+        mass: 1,
+        stiffness: 150,
+        type: `spring`
+    }, Te = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transformPerspective: 1200,
+        transition: J,
+        x: -100,
+        y: 0
+    }, Ee = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transformPerspective: 1200,
+        x: 0,
+        y: 20
+    }, De = {
+        delay: .2,
+        duration: .5,
+        ease: [.44, 0, .56, 1],
+        type: `tween`
+    }, Y = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transformPerspective: 1200,
+        x: 0,
+        y: 30
+    }, Oe = {
+        delay: .3,
+        duration: .8,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, ke = {
+        delay: .2,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, X = {
+        opacity: 1,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1.1,
+        skewX: 0,
+        skewY: 0,
+        transition: {
+            bounce: .25,
+            delay: 0,
+            duration: .45,
+            type: `spring`
+        }
+    }, Ae = {
+        delay: .3,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, je = {
+        delay: .4,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, Me = {
+        delay: .5,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, Z = {
+        delay: .6,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, Ne = {
+        delay: .7,
+        duration: .6,
+        ease: [.44, 0, 0, 1],
+        type: `tween`
+    }, Q = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 30
+    }, Pe = {
+        delay: .2,
+        duration: .7,
+        ease: [.4, 0, 0, 1],
+        type: `tween`
+    }, Fe = {
+        delay: .4,
+        duration: .7,
+        ease: [.4, 0, 0, 1],
+        type: `tween`
+    }, Ie = ({
+        value: e
+    }) => v() ? null : a(`style`, {
+        dangerouslySetInnerHTML: {
+            __html: e
+        },
+        "data-framer-html-style": ``
+    }), Le = {
+        Desktop: `QB5_6wmS3`,
+        Phone: `xSx1N_EiT`,
+        Tablet: `ds2v4Ve8R`
+    }, Re = ({
+        height: e,
+        id: t,
+        width: n,
+        ...r
+    }) => ({
+        ...r,
+        variant: Le[r.variant] ?? r.variant ?? `QB5_6wmS3`
+    }), $ = fe(ee(function(e, n) {
+        let ee = r(null),
+            s = n ?? ee,
+            l = te(),
+            {
+                activeLocale: u,
+                setLocale: f
+            } = ue(),
+            m = ie(),
+            {
+                style: re,
+                className: _,
+                layoutId: v,
+                variant: le,
+                ...fe
+            } = Re(e);
+        ce(t(() => he({}, u), [u]));
+        let [C, me] = se(le, xe, !1), T = p(Se, pe), D = () => !q() || C === `xSx1N_EiT`;
+        ge(u);
+        let O = () => !q() || C === `ds2v4Ve8R`,
+            k = y(`UeW8M8x6r`),
+            j = r(null),
+            M = y(`HH2E4mc9g`),
+            F = r(null),
+            L = () => q() ? ![`ds2v4Ve8R`, `xSx1N_EiT`].includes(C) : !0,
+            z = y(`OVVQvoABH`),
+            B = r(null),
+            V = y(`MqzH8etJH`),
+            H = r(null);
+        return ae({}), a(de.Provider, {
+            value: {
+                primaryVariantId: `QB5_6wmS3`,
+                variantClassNames: Ce
+            },
+            children: o(ne, {
+                id: v ?? l,
+                children: [a(Ie, {
+                    value: `html body { background: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23)); }`
+                }), o(c.div, {
+                    ...fe,
+                    className: p(T, `framer-7li15u`, _),
+                    ref: s,
+                    style: {
+                        ...re
+                    },
+                    children: [o(`div`, {
+                        className: `framer-xg7dm1`,
+                        "data-framer-name": `About Us`,
+                        children: [D() && a(g, {
+                            breakpoint: C,
+                            overrides: {
+                                xSx1N_EiT: {
+                                    height: 64,
+                                    width: `390px`,
+                                    y: (m?.y || 0) + 0 + 0 + 120 + 0
+                                }
+                            },
+                            children: a(S, {
+                                children: a(x, {
+                                    className: `framer-4m3ga6-container hidden-7li15u hidden-1lyqsm6`,
+                                    layoutScroll: !0,
+                                    nodeId: `fAT4w8FSL`,
+                                    scopeId: `ftj9Wtl0w`,
+                                    children: a(w, {
+                                        height: `100%`,
+                                        id: `fAT4w8FSL`,
+                                        layoutId: `fAT4w8FSL`,
+                                        style: {
+                                            width: `100%`
+                                        },
+                                        variant: `q4awZQzBC`,
+                                        width: `100%`
+                                    })
+                                })
+                            })
+                        }), o(`div`, {
+                            className: `framer-omzv64`,
+                            "data-framer-name": `Content`,
+                            children: [o(U, {
+                                __framer__animate: {
+                                    transition: J
+                                },
+                                __framer__animateOnce: !0,
+                                __framer__enter: we,
+                                __framer__exit: Te,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-1r39haz`,
+                                "data-framer-name": `Title & Description`,
+                                style: {
+                                    transformPerspective: 1200
+                                },
+                                children: [a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        ds2v4Ve8R: {
+                                            children: R(`v1`, u) ?? a(i, {
+                                                children: o(`h1`, {
+                                                    style: {
+                                                        "--font-selector": `SW50ZXItU2VtaUJvbGQ=`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-size": `45px`,
+                                                        "--framer-font-weight": `600`,
+                                                        "--framer-letter-spacing": `-1.5px`,
+                                                        "--framer-line-height": `44px`,
+                                                        "--framer-text-alignment": `left`,
+                                                        "--framer-text-color": `var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`
+                                                    },
+                                                    children: [`Seferi'nin Arkasında `, a(`span`, {
+                                                        style: {
+                                                            "--framer-text-color": `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`
+                                                        },
+                                                        children: `Deneyim `
+                                                    }), `Var`]
+                                                })
+                                            })
+                                        },
+                                        xSx1N_EiT: {
+                                            children: R(`v2`, u) ?? a(i, {
+                                                children: o(`h1`, {
+                                                    style: {
+                                                        "--font-selector": `SW50ZXItU2VtaUJvbGQ=`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-size": `45px`,
+                                                        "--framer-font-weight": `600`,
+                                                        "--framer-letter-spacing": `-1.5px`,
+                                                        "--framer-line-height": `44px`,
+                                                        "--framer-text-alignment": `left`,
+                                                        "--framer-text-color": `var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`
+                                                    },
+                                                    children: [`Seferi'nin Arkasında `, a(`span`, {
+                                                        style: {
+                                                            "--framer-text-color": `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`
+                                                        },
+                                                        children: `Deneyim `
+                                                    }), `Var`]
+                                                })
+                                            })
+                                        }
+                                    },
+                                    children: a(h, {
+                                        __fromCanvasComponent: !0,
+                                        children: R(`v0`, u) ?? a(i, {
+                                            children: o(`h1`, {
+                                                style: {
+                                                    "--font-selector": `SW50ZXItU2VtaUJvbGQ=`,
+                                                    "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                    "--framer-font-size": `50px`,
+                                                    "--framer-font-weight": `600`,
+                                                    "--framer-letter-spacing": `-1.5px`,
+                                                    "--framer-line-height": `44px`,
+                                                    "--framer-text-alignment": `left`,
+                                                    "--framer-text-color": `var(--token-7a89bdcb-759f-4ffd-87e9-a104f0bbbf92, rgb(240, 246, 255))`
+                                                },
+                                                children: [`Seferi'nin Arkasında `, a(`span`, {
+                                                    style: {
+                                                        "--framer-text-color": `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`
+                                                    },
+                                                    children: `Deneyim `
+                                                }), `Var`]
+                                            })
+                                        }),
+                                        className: `framer-1acfi4t`,
+                                        fonts: [`Inter-SemiBold`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0
+                                    })
+                                }), a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        ds2v4Ve8R: {
+                                            children: R(`v4`, u) ?? a(i, {
+                                                children: o(`p`, {
+                                                    style: {
+                                                        "--framer-font-size": `20px`,
+                                                        "--framer-letter-spacing": `0px`,
+                                                        "--framer-line-height": `30px`,
+                                                        "--framer-text-alignment": `left`,
+                                                        "--framer-text-color": `var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`
+                                                    },
+                                                    children: [`Seferi, `, a(b, {
+                                                        href: `https://siriusaitech.com/`,
+                                                        motionChild: !0,
+                                                        nodeId: `EdcC0Hheb`,
+                                                        openInNewTab: !0,
+                                                        relValues: [],
+                                                        scopeId: `ftj9Wtl0w`,
+                                                        smoothScroll: !1,
+                                                        children: a(c.a, {
+                                                            className: `framer-styles-preset-7ybpp4`,
+                                                            "data-styles-preset": `sUz0RkfT4`,
+                                                            children: `Sirius AI Tech`
+                                                        })
+                                                    }), `’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]
+                                                })
+                                            })
+                                        },
+                                        xSx1N_EiT: {
+                                            children: R(`v5`, u) ?? a(i, {
+                                                children: o(`p`, {
+                                                    style: {
+                                                        "--framer-font-size": `20px`,
+                                                        "--framer-letter-spacing": `0px`,
+                                                        "--framer-line-height": `30px`,
+                                                        "--framer-text-alignment": `left`,
+                                                        "--framer-text-color": `var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`
+                                                    },
+                                                    children: [`Seferi, `, a(b, {
+                                                        href: `https://siriusaitech.com/`,
+                                                        motionChild: !0,
+                                                        nodeId: `EdcC0Hheb`,
+                                                        openInNewTab: !0,
+                                                        relValues: [],
+                                                        scopeId: `ftj9Wtl0w`,
+                                                        smoothScroll: !1,
+                                                        children: a(c.a, {
+                                                            className: `framer-styles-preset-7ybpp4`,
+                                                            "data-styles-preset": `sUz0RkfT4`,
+                                                            children: `Sirius AI Tech`
+                                                        })
+                                                    }), `’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]
+                                                })
+                                            })
+                                        }
+                                    },
+                                    children: a(h, {
+                                        __fromCanvasComponent: !0,
+                                        children: R(`v3`, u) ?? a(i, {
+                                            children: o(`p`, {
+                                                style: {
+                                                    "--framer-font-size": `20px`,
+                                                    "--framer-letter-spacing": `0px`,
+                                                    "--framer-line-height": `30px`,
+                                                    "--framer-text-alignment": `left`,
+                                                    "--framer-text-color": `var(--token-9f870957-8b40-4b79-9148-9e8bfd8b1688, rgb(152, 156, 165))`
+                                                },
+                                                children: [`Seferi, `, a(b, {
+                                                    href: `https://siriusaitech.com/`,
+                                                    motionChild: !0,
+                                                    nodeId: `EdcC0Hheb`,
+                                                    openInNewTab: !0,
+                                                    relValues: [],
+                                                    scopeId: `ftj9Wtl0w`,
+                                                    smoothScroll: !1,
+                                                    children: a(c.a, {
+                                                        className: `framer-styles-preset-7ybpp4`,
+                                                        "data-styles-preset": `sUz0RkfT4`,
+                                                        children: `Sirius AI Tech`
+                                                    })
+                                                }), `’in yenilikçi Ar-Ge çalışmalarıyla geliştirdiği bir üründür. Yılların tecrübesine ve geniş bir ürün portföyüne sahip olan Sirius AI Tech, yapay zeka alanındaki uzmanlığı sayesinde, farklı iş alanları ve çeşitli sektörlerin özel ihtiyaçlarına yönelik çözümler sunmaktadır. Çevik yapımız, yapay zekanın esnekliği ve ekibimizin yenilikçi vizyonunda yatmaktadır. Seferi ile lojistik sektörüne değer katmayı ve işletmelerin operasyonlarını daha verimli hale getirmeyi amaçlıyoruz.`]
+                                            })
+                                        }),
+                                        className: `framer-110i2mw`,
+                                        fonts: [`Inter`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0
+                                    })
+                                })]
+                            }), a(`div`, {
+                                className: `framer-1oy0ue8`,
+                                children: a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        ds2v4Ve8R: {
+                                            background: {
+                                                alt: ``,
+                                                fit: `fill`,
+                                                loading: d((m?.y || 0) + 0 + 0 + 120 + 0 + 236 + 0),
+                                                pixelHeight: 4e3,
+                                                pixelWidth: 3275,
+                                                positionX: `center`,
+                                                positionY: `center`,
+                                                sizes: `715px`,
+                                                src: `/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg`,
+                                                srcSet: `/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 838w,/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 1676w,/images/VhIEs1DYxyrz6gGv8NHYANAG3yU.jpg 3275w`
+                                            }
+                                        },
+                                        xSx1N_EiT: {
+                                            background: {
+                                                alt: ``,
+                                                fit: `fill`,
+                                                loading: d((m?.y || 0) + 0 + 0 + 120 + 100 + 7 + 257 + 0),
+                                                pixelHeight: 1786,
+                                                pixelWidth: 3441,
+                                                positionX: `left`,
+                                                positionY: `center`,
+                                                sizes: `366px`,
+                                                src: `/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg`,
+                                                srcSet: `/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 512w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 1024w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 2048w,/images/E4wORPp8JZP7Kbz9TcVWMQ8KM.jpg 3441w`
+                                            }
+                                        }
+                                    },
+                                    children: a(oe, {
+                                        background: {
+                                            alt: ``,
+                                            fit: `fill`,
+                                            loading: d((m?.y || 0) + 0 + 0 + 120 + 0 + 0),
+                                            pixelHeight: 4e3,
+                                            pixelWidth: 3719,
+                                            positionX: `left`,
+                                            positionY: `center`,
+                                            sizes: `450px`,
+                                            src: `/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg`,
+                                            srcSet: `/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 952w,/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 1904w,/images/yAKU1V0hCNNS1AfMp6X7aDcZInk.jpg 3719w`
+                                        },
+                                        className: `framer-1yjsy6n`
+                                    })
+                                })
+                            })]
+                        }), O() && a(g, {
+                            breakpoint: C,
+                            overrides: {
+                                ds2v4Ve8R: {
+                                    height: 64,
+                                    width: `810px`,
+                                    y: (m?.y || 0) + 0 + 0 + 311.5
+                                }
+                            },
+                            children: a(S, {
+                                children: a(x, {
+                                    className: `framer-eykz2x-container hidden-7li15u hidden-1ifpsxa`,
+                                    layoutScroll: !0,
+                                    nodeId: `wIAtLFE1E`,
+                                    scopeId: `ftj9Wtl0w`,
+                                    children: a(w, {
+                                        height: `100%`,
+                                        id: `wIAtLFE1E`,
+                                        layoutId: `wIAtLFE1E`,
+                                        style: {
+                                            width: `100%`
+                                        },
+                                        variant: `q4awZQzBC`,
+                                        width: `100%`
+                                    })
+                                })
+                            })
+                        })]
+                    }), a(g, {
+                        breakpoint: C,
+                        overrides: {
+                            xSx1N_EiT: {
+                                y: (m?.y || 0) + 0 + 742
+                            }
+                        },
+                        children: a(S, {
+                            height: 1006,
+                            width: m?.width || `100vw`,
+                            y: (m?.y || 0) + 0 + 647,
+                            children: a(x, {
+                                className: `framer-1f6oe3g-container`,
+                                id: k,
+                                nodeId: `UeW8M8x6r`,
+                                ref: j,
+                                scopeId: `ftj9Wtl0w`,
+                                children: a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        ds2v4Ve8R: {
+                                            variant: `b63FFBTHj`
+                                        },
+                                        xSx1N_EiT: {
+                                            variant: `oh4vGbtdG`
+                                        }
+                                    },
+                                    children: a(P, {
+                                        A3_alzF14: {
+                                            borderBottomWidth: 1,
+                                            borderColor: `var(--token-e0a3f9cc-042c-4657-97ac-f0d618aaff9b, rgba(0, 0, 0, 0.2))`,
+                                            borderLeftWidth: 0,
+                                            borderRightWidth: 0,
+                                            borderStyle: `solid`,
+                                            borderTopWidth: 0
+                                        },
+                                        height: `100%`,
+                                        id: `UeW8M8x6r`,
+                                        layoutId: `UeW8M8x6r`,
+                                        style: {
+                                            width: `100%`
+                                        },
+                                        variant: `qde4x5f3Z`,
+                                        width: `100%`
+                                    })
+                                })
+                            })
+                        })
+                    }), o(`section`, {
+                        className: `framer-1qm5kfg`,
+                        "data-framer-name": `Features`,
+                        id: M,
+                        ref: F,
+                        children: [a(`div`, {
+                            className: `framer-15ragto`,
+                            "data-framer-name": `Heading & badge`,
+                            children: o(`div`, {
+                                className: `framer-xbb73p`,
+                                "data-framer-name": `Heading & Badge`,
+                                children: [a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        xSx1N_EiT: {
+                                            y: (m?.y || 0) + 0 + 1748 + 80 + 0 + 0 + 0 + 0 + 0
+                                        }
+                                    },
+                                    children: a(S, {
+                                        height: 28,
+                                        y: (m?.y || 0) + 0 + 1653 + 41 + 0 + 0 + 0 + 0 + 0,
+                                        children: a(G, {
+                                            __framer__animate: {
+                                                transition: De
+                                            },
+                                            __framer__animateOnce: !0,
+                                            __framer__enter: Ee,
+                                            __framer__styleAppearEffectEnabled: !0,
+                                            __framer__targets: [{
+                                                ref: F,
+                                                target: `animate`
+                                            }],
+                                            __framer__threshold: 1,
+                                            __perspectiveFX: !1,
+                                            __targetOpacity: 1,
+                                            className: `framer-1bbtic7-container`,
+                                            isModuleExternal: !0,
+                                            nodeId: `tGHLpNxiZ`,
+                                            rendersWithMotion: !0,
+                                            scopeId: `ftj9Wtl0w`,
+                                            style: {
+                                                transformPerspective: 1200
+                                            },
+                                            children: a(N, {
+                                                H66JozB37: R(`v6`, u) ?? `Hakkımızda`,
+                                                height: `100%`,
+                                                id: `tGHLpNxiZ`,
+                                                Jh72zJwEj: `var(--token-230862fa-ae0f-43fa-8a3c-2eb328ca5eb4, rgb(0, 149, 255))`,
+                                                layoutId: `tGHLpNxiZ`,
+                                                OVPxVBpAp: `var(--token-230862fa-ae0f-43fa-8a3c-2eb328ca5eb4, rgb(0, 149, 255))`,
+                                                variant: `yHZcb1tHJ`,
+                                                wdibwMZO8: `rgba(0, 149, 255, 0.2)`,
+                                                width: `100%`
+                                            })
+                                        })
+                                    })
+                                }), a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        xSx1N_EiT: {
+                                            children: R(`v8`, u) ?? a(i, {
+                                                children: a(`h2`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-size": `46px`,
+                                                        "--framer-font-weight": `600`,
+                                                        "--framer-letter-spacing": `-1.5px`,
+                                                        "--framer-line-height": `115%`,
+                                                        "--framer-text-alignment": `center`,
+                                                        "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                    },
+                                                    children: `Prensiplerimiz`
+                                                })
+                                            })
+                                        }
+                                    },
+                                    children: a(K, {
+                                        __framer__animate: {
+                                            transition: Oe
+                                        },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: Y,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__targets: [{
+                                            ref: F,
+                                            target: `animate`
+                                        }],
+                                        __framer__threshold: 1,
+                                        __fromCanvasComponent: !0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        children: R(`v7`, u) ?? a(i, {
+                                            children: a(`h2`, {
+                                                style: {
+                                                    "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                    "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                    "--framer-font-size": `46px`,
+                                                    "--framer-font-weight": `600`,
+                                                    "--framer-letter-spacing": `-1.5px`,
+                                                    "--framer-line-height": `110%`,
+                                                    "--framer-text-alignment": `center`,
+                                                    "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                },
+                                                children: `Prensiplerimiz`
+                                            })
+                                        }),
+                                        className: `framer-sqhp95`,
+                                        "data-framer-name": `Heading`,
+                                        fonts: [`GF;Inter-600`],
+                                        style: {
+                                            transformPerspective: 1200
+                                        },
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0
+                                    })
+                                })]
+                            })
+                        }), o(`div`, {
+                            className: `framer-uctoao`,
+                            "data-framer-name": `Container`,
+                            children: [o(`div`, {
+                                className: `framer-1ot9atf`,
+                                "data-framer-name": `Row`,
+                                children: [o(U, {
+                                    __framer__animate: {
+                                        transition: ke
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-kxwu5z`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-1f6its1`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-9d8a37-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `l2xWMyhVe`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `sidebar`,
+                                                    id: `l2xWMyhVe`,
+                                                    layoutId: `l2xWMyhVe`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-1rvwvrz`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v11`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Şeffaflık`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v10`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Şeffaflık`
+                                                    })
+                                                }),
+                                                className: `framer-sq7w0i`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v12`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Müşterilerimizin lojistik süreçlerinin her aşamasına hakim olmasını sağlamak için şeffaf bir yaklaşım benimsiyoruz. Gerçek zamanlı izleme ve raporlama özelliklerimiz sayesinde, müşterilerimiz her aşamada sürecin içinde kalabilir ve güvenle teslimatlarını yönetebilir.`
+                                                })
+                                            }),
+                                            className: `framer-xdkjwa`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                }), o(U, {
+                                    __framer__animate: {
+                                        transition: Ae
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-1st75vm`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-b0q688`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-1c3k3d1-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `LKd_Y2GqJ`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `shield`,
+                                                    id: `LKd_Y2GqJ`,
+                                                    layoutId: `LKd_Y2GqJ`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-1izpm24`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v14`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Güvenilirlik`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v13`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Güvenilirlik`
+                                                    })
+                                                }),
+                                                className: `framer-tlpb1m`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v15`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Seferi olarak, tüm müşterilerimizin lojistik süreçlerinde güvenilir bir iş ortağı olmayı hedefliyoruz. Veriye dayalı karar alma süreçlerimiz ve güvenli otomasyon sistemimizle, her teslimatın zamanında ve doğru şekilde yapılmasını sağlıyoruz.`
+                                                })
+                                            }),
+                                            className: `framer-taiqlb`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                }), o(U, {
+                                    __framer__animate: {
+                                        transition: je
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-1ite788`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-1gzhq6x`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-v3yt0z-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `pa9Bs69yT`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-5a4f0677-6ab9-4942-978c-f07a3471c3eb, rgb(16, 101, 227))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `user`,
+                                                    id: `pa9Bs69yT`,
+                                                    layoutId: `pa9Bs69yT`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-f88jnq`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v17`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Müşteri Odaklı`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v16`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Müşteri Odaklı`
+                                                    })
+                                                }),
+                                                className: `framer-1fgghmb`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v18`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Müşteri memnuniyeti, tüm faaliyetlerimizin merkezinde yer alır. Müşterilerimizin ihtiyaçlarını anlamak, süreçleri onlar için daha basit ve etkili hale getirmek en büyük önceliğimizdir. Bu sayede, sadece hizmet sağlamakla kalmaz, aynı zamanda güvenilir bir çözüm ortağı oluruz.`
+                                                })
+                                            }),
+                                            className: `framer-ad5stj`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                })]
+                            }), o(`div`, {
+                                className: `framer-zcvpk2`,
+                                "data-framer-name": `Row`,
+                                children: [o(U, {
+                                    __framer__animate: {
+                                        transition: Me
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-vloqvf`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-1sd3vdk`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-1pgk8o0-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `XUdnuDKP5`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `maximize`,
+                                                    id: `XUdnuDKP5`,
+                                                    layoutId: `XUdnuDKP5`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-lqti68`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v20`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Profesyonel`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v19`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Profesyonel`
+                                                    })
+                                                }),
+                                                className: `framer-1vdmhq3`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v21`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Lojistik otomasyonu alanında uzman bir ekip olarak, her aşamada profesyonel bir yaklaşım sergiliyoruz. Mükemmeliyet ve kaliteye olan bağlılığımız, müşterilerimize en iyi hizmeti sunmak için gerekli titizliği ve sorumluluğu taşıdığımızın bir göstergesidir.`
+                                                })
+                                            }),
+                                            className: `framer-io5r36`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                }), o(U, {
+                                    __framer__animate: {
+                                        transition: Z
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-gau0y9`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-rcwvix`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-1hwfmkm-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `rz6V7m2mo`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `arrow-up`,
+                                                    id: `rz6V7m2mo`,
+                                                    layoutId: `rz6V7m2mo`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-1mb4n72`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v23`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Yenilikçi`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v22`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Yenilikçi`
+                                                    })
+                                                }),
+                                                className: `framer-nwbdot`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v24`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Seferi olarak, lojistik dünyasında yenilikçi bir yaklaşımla hareket ediyoruz. Sürekli gelişen AI teknolojilerimizle operasyonları optimize ederken, sektördeki en yeni gelişmeleri takiben, gerekli güncellemeleri müşterilerimizin hizmetine sunuyoruz. `
+                                                })
+                                            }),
+                                            className: `framer-y56wu3`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                }), o(U, {
+                                    __framer__animate: {
+                                        transition: Ne
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: Y,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__targets: [{
+                                        ref: F,
+                                        target: `animate`
+                                    }],
+                                    __framer__threshold: 1,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: `framer-1gkoo9s`,
+                                    "data-border": !0,
+                                    "data-framer-name": `Item-Col`,
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    whileHover: X,
+                                    children: [a(`div`, {
+                                        className: `framer-c1gxwh`,
+                                        "data-framer-name": `Icon Container`,
+                                        children: a(S, {
+                                            children: a(x, {
+                                                className: `framer-19o2ut5-container`,
+                                                isAuthoredByUser: !0,
+                                                isModuleExternal: !0,
+                                                nodeId: `Z4s2Jhkcq`,
+                                                scopeId: `ftj9Wtl0w`,
+                                                children: a(A, {
+                                                    color: `var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, rgb(18, 19, 23))`,
+                                                    height: `100%`,
+                                                    iconSearch: R(`v9`, u) ?? `Home`,
+                                                    iconSelection: `globe`,
+                                                    id: `Z4s2Jhkcq`,
+                                                    layoutId: `Z4s2Jhkcq`,
+                                                    mirrored: !1,
+                                                    selectByList: !0,
+                                                    style: {
+                                                        height: `100%`,
+                                                        width: `100%`
+                                                    },
+                                                    width: `100%`
+                                                })
+                                            })
+                                        })
+                                    }), o(`div`, {
+                                        className: `framer-v6kwzc`,
+                                        "data-framer-name": `Heading and badge`,
+                                        children: [a(g, {
+                                            breakpoint: C,
+                                            overrides: {
+                                                xSx1N_EiT: {
+                                                    children: R(`v26`, u) ?? a(i, {
+                                                        children: a(`h3`, {
+                                                            style: {
+                                                                "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                                "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                                "--framer-font-size": `20px`,
+                                                                "--framer-font-weight": `600`,
+                                                                "--framer-letter-spacing": `-0.5px`,
+                                                                "--framer-line-height": `120%`,
+                                                                "--framer-text-alignment": `left`,
+                                                                "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                            },
+                                                            children: `Sürdürülebilir`
+                                                        })
+                                                    })
+                                                }
+                                            },
+                                            children: a(h, {
+                                                __fromCanvasComponent: !0,
+                                                children: R(`v25`, u) ?? a(i, {
+                                                    children: a(`h3`, {
+                                                        style: {
+                                                            "--font-selector": `R0Y7SW50ZXItNjAw`,
+                                                            "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                            "--framer-font-size": `22px`,
+                                                            "--framer-font-weight": `600`,
+                                                            "--framer-letter-spacing": `-0.5px`,
+                                                            "--framer-line-height": `120%`,
+                                                            "--framer-text-alignment": `left`,
+                                                            "--framer-text-color": `var(--token-2759885a-0605-4b0d-ae5f-9a938c3766f2, rgb(0, 0, 0))`
+                                                        },
+                                                        children: `Sürdürülebilir`
+                                                    })
+                                                }),
+                                                className: `framer-1kuagfv`,
+                                                "data-framer-name": `Heading`,
+                                                fonts: [`GF;Inter-600`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0
+                                            })
+                                        }), a(h, {
+                                            __fromCanvasComponent: !0,
+                                            children: R(`v27`, u) ?? a(i, {
+                                                children: a(`p`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7SW50ZXItNTAw`,
+                                                        "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-line-height": `140%`,
+                                                        "--framer-text-color": `var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(79, 88, 116))`
+                                                    },
+                                                    children: `Seferi olarak, çevre dostu çözümler geliştirerek lojistikte sürdürülebilirliği önceliğimiz haline getiriyoruz. Enerji verimliliğini artıran optimizasyonlarla karbon ayak izini azaltmaya destek oluyoruz. Gelecek için sorumluluk alarak, çevreye duyarlı bir iş modeli benimsiyoruz.`
+                                                })
+                                            }),
+                                            className: `framer-jjfniz`,
+                                            "data-framer-name": `Text`,
+                                            fonts: [`GF;Inter-500`],
+                                            verticalAlignment: `top`,
+                                            withExternalLayout: !0
+                                        })]
+                                    })]
+                                })]
+                            })]
+                        })]
+                    }), L() && a(S, {
+                        height: 64,
+                        width: `100vw`,
+                        y: 0,
+                        children: a(x, {
+                            className: `framer-kcrlif-container hidden-1lyqsm6 hidden-1ifpsxa`,
+                            layoutScroll: !0,
+                            nodeId: `DtM1lk9O_`,
+                            scopeId: `ftj9Wtl0w`,
+                            children: a(w, {
+                                height: `100%`,
+                                id: `DtM1lk9O_`,
+                                layoutId: `DtM1lk9O_`,
+                                style: {
+                                    width: `100%`
+                                },
+                                variant: `sP8HpGRRA`,
+                                width: `100%`
+                            })
+                        })
+                    }), a(`section`, {
+                        className: `framer-1n2pzpz`,
+                        "data-framer-name": `FAQ`,
+                        id: z,
+                        ref: B,
+                        children: o(`div`, {
+                            className: `framer-hx9q8w`,
+                            "data-framer-name": `Container`,
+                            id: V,
+                            ref: H,
+                            children: [a(`div`, {
+                                className: `framer-1u26p8b`,
+                                "data-framer-name": `Content`,
+                                children: a(g, {
+                                    breakpoint: C,
+                                    overrides: {
+                                        ds2v4Ve8R: {
+                                            __framer__targets: void 0,
+                                            children: R(`v29`, u) ?? a(i, {
+                                                children: a(`h2`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7UG9wcGlucy01MDA=`,
+                                                        "--framer-font-family": `"Poppins", "Poppins Placeholder", sans-serif`,
+                                                        "--framer-font-size": `46px`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-letter-spacing": `-2px`,
+                                                        "--framer-text-alignment": `center`,
+                                                        "--framer-text-color": `var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`
+                                                    },
+                                                    children: `Sıkça Sorulan Sorular (SSS)`
+                                                })
+                                            })
+                                        },
+                                        xSx1N_EiT: {
+                                            __framer__targets: void 0,
+                                            children: R(`v30`, u) ?? a(i, {
+                                                children: a(`h2`, {
+                                                    style: {
+                                                        "--font-selector": `R0Y7UG9wcGlucy01MDA=`,
+                                                        "--framer-font-family": `"Poppins", "Poppins Placeholder", sans-serif`,
+                                                        "--framer-font-size": `34px`,
+                                                        "--framer-font-weight": `500`,
+                                                        "--framer-letter-spacing": `-2px`,
+                                                        "--framer-text-alignment": `center`,
+                                                        "--framer-text-color": `var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`
+                                                    },
+                                                    children: `Sıkça Sorulan Sorular (SSS)`
+                                                })
+                                            })
+                                        }
+                                    },
+                                    children: a(K, {
+                                        __framer__animate: {
+                                            transition: Pe
+                                        },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: Q,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__targets: [{
+                                            ref: H,
+                                            target: `animate`
+                                        }],
+                                        __framer__threshold: .5,
+                                        __fromCanvasComponent: !0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        children: R(`v28`, u) ?? a(i, {
+                                            children: a(`h2`, {
+                                                style: {
+                                                    "--font-selector": `R0Y7UG9wcGlucy01MDA=`,
+                                                    "--framer-font-family": `"Poppins", "Poppins Placeholder", sans-serif`,
+                                                    "--framer-font-size": `58px`,
+                                                    "--framer-font-weight": `500`,
+                                                    "--framer-letter-spacing": `-2px`,
+                                                    "--framer-text-alignment": `center`,
+                                                    "--framer-text-color": `var(--token-43315af6-1007-47b0-b37f-7a6ce15fe95c, rgb(242, 249, 254))`
+                                                },
+                                                children: `Sıkça Sorulan Sorular (SSS)`
+                                            })
+                                        }),
+                                        className: `framer-1quin7s`,
+                                        fonts: [`GF;Poppins-500`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0
+                                    })
+                                })
+                            }), a(g, {
+                                breakpoint: C,
+                                overrides: {
+                                    ds2v4Ve8R: {
+                                        width: `min(${m?.width||`100vw`} - 60px, 874px)`,
+                                        y: (m?.y || 0) + 0 + 2985.6 + 55 + 0 + 100.2
+                                    },
+                                    xSx1N_EiT: {
+                                        width: `min(${m?.width||`100vw`} - 40px, 874px)`,
+                                        y: (m?.y || 0) + 0 + 4374.9 + 40 + 0 + 0 + 60.8
+                                    }
+                                },
+                                children: a(S, {
+                                    height: 478,
+                                    width: `min((${m?.width||`100vw`} - 120px) * 0.81, 874px)`,
+                                    y: (m?.y || 0) + 0 + 2659.6 + 90 + 0 + 129.6,
+                                    children: a(g, {
+                                        breakpoint: C,
+                                        overrides: {
+                                            ds2v4Ve8R: {
+                                                __framer__targets: void 0
+                                            },
+                                            xSx1N_EiT: {
+                                                __framer__targets: void 0
+                                            }
+                                        },
+                                        children: a(G, {
+                                            __framer__animate: {
+                                                transition: Fe
+                                            },
+                                            __framer__animateOnce: !0,
+                                            __framer__enter: Q,
+                                            __framer__styleAppearEffectEnabled: !0,
+                                            __framer__targets: [{
+                                                ref: H,
+                                                target: `animate`
+                                            }],
+                                            __framer__threshold: .5,
+                                            __perspectiveFX: !1,
+                                            __targetOpacity: 1,
+                                            className: `framer-ydx2or-container`,
+                                            nodeId: `MAGYWuwOv`,
+                                            rendersWithMotion: !0,
+                                            scopeId: `ftj9Wtl0w`,
+                                            children: a(I, {
+                                                height: `100%`,
+                                                id: `MAGYWuwOv`,
+                                                layoutId: `MAGYWuwOv`,
+                                                style: {
+                                                    maxWidth: `100%`,
+                                                    width: `100%`
+                                                },
+                                                width: `100%`
+                                            })
+                                        })
+                                    })
+                                })
+                            })]
+                        })
+                    }), L() && a(S, {
+                        height: 623,
+                        width: m?.width || `100vw`,
+                        y: (m?.y || 0) + 0 + 3420.2,
+                        children: a(x, {
+                            className: `framer-1tzl729-container hidden-1lyqsm6 hidden-1ifpsxa`,
+                            nodeId: `dMWeejvuw`,
+                            scopeId: `ftj9Wtl0w`,
+                            children: a(E, {
+                                height: `100%`,
+                                id: `dMWeejvuw`,
+                                layoutId: `dMWeejvuw`,
+                                style: {
+                                    width: `100%`
+                                },
+                                variant: `nWLoci_VY`,
+                                width: `100%`
+                            })
+                        })
+                    }), D() && a(g, {
+                        breakpoint: C,
+                        overrides: {
+                            xSx1N_EiT: {
+                                height: 623,
+                                width: m?.width || `100vw`,
+                                y: (m?.y || 0) + 0 + 4993.7
+                            }
+                        },
+                        children: a(S, {
+                            children: a(x, {
+                                className: `framer-1le87lo-container hidden-7li15u hidden-1lyqsm6`,
+                                nodeId: `XdA5O18Ic`,
+                                scopeId: `ftj9Wtl0w`,
+                                children: a(E, {
+                                    height: `100%`,
+                                    id: `XdA5O18Ic`,
+                                    layoutId: `XdA5O18Ic`,
+                                    style: {
+                                        width: `100%`
+                                    },
+                                    variant: `IOWGBfgSg`,
+                                    width: `100%`
+                                })
+                            })
+                        })
+                    }), O() && a(g, {
+                        breakpoint: C,
+                        overrides: {
+                            ds2v4Ve8R: {
+                                height: 623,
+                                width: m?.width || `100vw`,
+                                y: (m?.y || 0) + 0 + 3673.8
+                            }
+                        },
+                        children: a(S, {
+                            children: a(x, {
+                                className: `framer-3tutlh-container hidden-7li15u hidden-1ifpsxa`,
+                                nodeId: `N0sawo_5F`,
+                                scopeId: `ftj9Wtl0w`,
+                                children: a(E, {
+                                    height: `100%`,
+                                    id: `N0sawo_5F`,
+                                    layoutId: `N0sawo_5F`,
+                                    style: {
+                                        width: `100%`
+                                    },
+                                    variant: `rxsn3pSa4`,
+                                    width: `100%`
+                                })
+                            })
+                        })
+                    })]
+                }), a(`div`, {
+                    id: `overlay`
+                })]
+            })
+        })
+    }), [`@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`, `.framer-PmsYL.framer-15zhvyb, .framer-PmsYL .framer-15zhvyb { display: block; }`, `.framer-PmsYL.framer-7li15u { align-content: center; align-items: center; background-color: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, #121317); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 1200px; }`, `.framer-PmsYL .framer-xg7dm1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 36px; height: min-content; justify-content: center; overflow: hidden; padding: 120px 60px 80px 60px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-4m3ga6-container { flex: none; height: auto; left: 0px; position: relative; top: 0px; width: 390px; z-index: 1; }`, `.framer-PmsYL .framer-omzv64 { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; max-width: 1440px; overflow: visible; padding: 0px; position: relative; width: 1px; }`, `.framer-PmsYL .framer-1r39haz { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1px; }`, `.framer-PmsYL .framer-1acfi4t, .framer-PmsYL .framer-1quin7s { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`, `.framer-PmsYL .framer-110i2mw, .framer-PmsYL .framer-sqhp95, .framer-PmsYL .framer-xdkjwa, .framer-PmsYL .framer-taiqlb, .framer-PmsYL .framer-ad5stj, .framer-PmsYL .framer-io5r36, .framer-PmsYL .framer-y56wu3, .framer-PmsYL .framer-jjfniz { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`, `.framer-PmsYL .framer-1oy0ue8 { flex: none; height: 447px; overflow: hidden; position: relative; width: 450px; }`, `.framer-PmsYL .framer-1yjsy6n { border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 30px; flex: none; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; }`, `.framer-PmsYL .framer-eykz2x-container { flex: none; height: auto; left: 0px; position: relative; top: 0px; width: 810px; z-index: 1; }`, `.framer-PmsYL .framer-1f6oe3g-container, .framer-PmsYL .framer-1tzl729-container, .framer-PmsYL .framer-1le87lo-container, .framer-PmsYL .framer-3tutlh-container { flex: none; height: auto; position: relative; width: 100%; }`, `.framer-PmsYL .framer-1qm5kfg { align-content: center; align-items: center; background-color: var(--token-7354084b-2f3d-4256-9942-cf21fcb19d60, #f9fafb); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 41px 0px 41px 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-15ragto { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 840px; overflow: visible; padding: 0px; position: relative; width: 55%; }`, `.framer-PmsYL .framer-xbb73p { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-1bbtic7-container { flex: none; height: auto; position: relative; width: auto; }`, `.framer-PmsYL .framer-uctoao { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1280px; overflow: visible; padding: 0px 60px 0px 60px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-kxwu5z { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`, `.framer-PmsYL .framer-1f6its1, .framer-PmsYL .framer-b0q688, .framer-PmsYL .framer-1gzhq6x { align-content: center; align-items: center; background-color: #e8f4ff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 14px; position: relative; width: min-content; }`, `.framer-PmsYL .framer-9d8a37-container, .framer-PmsYL .framer-1c3k3d1-container, .framer-PmsYL .framer-v3yt0z-container, .framer-PmsYL .framer-1pgk8o0-container, .framer-PmsYL .framer-1hwfmkm-container, .framer-PmsYL .framer-19o2ut5-container { flex: none; height: 32px; position: relative; width: 28px; }`, `.framer-PmsYL .framer-1rvwvrz, .framer-PmsYL .framer-1izpm24, .framer-PmsYL .framer-f88jnq, .framer-PmsYL .framer-lqti68, .framer-PmsYL .framer-1mb4n72, .framer-PmsYL .framer-v6kwzc { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-sq7w0i, .framer-PmsYL .framer-tlpb1m, .framer-PmsYL .framer-1fgghmb, .framer-PmsYL .framer-1vdmhq3, .framer-PmsYL .framer-nwbdot, .framer-PmsYL .framer-1kuagfv { --framer-paragraph-spacing: 60px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`, `.framer-PmsYL .framer-1st75vm { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 29px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`, `.framer-PmsYL .framer-1ite788 { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 13px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`, `.framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { --border-bottom-width: 1px; --border-color: var(--token-08cb0f10-6dc5-4949-913f-dbd7168f1cf0, #e5e7eb); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, #ffffff); border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; box-shadow: 0px 4px 4px 0px rgba(107, 107, 107, 0.05); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 28px; height: 365px; justify-content: flex-start; overflow: visible; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`, `.framer-PmsYL .framer-1sd3vdk, .framer-PmsYL .framer-rcwvix, .framer-PmsYL .framer-c1gxwh { align-content: center; align-items: center; background-color: #cfcfcf; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 14px; position: relative; width: min-content; }`, `.framer-PmsYL .framer-kcrlif-container { flex: none; height: auto; left: 50%; position: fixed; top: 0px; transform: translateX(-50%); width: 100%; z-index: 1; }`, `.framer-PmsYL .framer-1n2pzpz { align-content: center; align-items: center; background-color: var(--token-056bbe86-7e05-4e0e-9a91-0365b100480b, #121317); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 90px 60px 63px 60px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-hx9q8w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-1u26p8b { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 30px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`, `.framer-PmsYL .framer-ydx2or-container { flex: none; height: auto; max-width: 874px; position: relative; width: 81%; }`, ...T, `.framer-PmsYL[data-border="true"]::after, .framer-PmsYL [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`, `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-PmsYL.framer-7li15u { width: 810px; } .framer-PmsYL .framer-xg7dm1 { padding: 120px 40px 80px 40px; } .framer-PmsYL .framer-omzv64 { flex-direction: column; } .framer-PmsYL .framer-1r39haz { flex: none; width: 100%; } .framer-PmsYL .framer-1oy0ue8 { border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 211px; width: 715px; will-change: var(--framer-will-change-override, transform); } .framer-PmsYL .framer-1yjsy6n { height: 155%; } .framer-PmsYL .framer-1qm5kfg { gap: 80px; } .framer-PmsYL .framer-15ragto { width: 80%; } .framer-PmsYL .framer-uctoao { max-width: unset; padding: 0px 40px 0px 40px; } .framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { gap: 24px; } .framer-PmsYL .framer-kxwu5z, .framer-PmsYL .framer-1ite788, .framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { height: 520px; min-height: 320px; } .framer-PmsYL .framer-1st75vm { gap: 80px; height: 520px; min-height: 320px; } .framer-PmsYL .framer-1n2pzpz { padding: 55px 30px 55px 30px; } .framer-PmsYL .framer-hx9q8w { gap: 45px; } .framer-PmsYL .framer-1u26p8b { gap: 25px; } .framer-PmsYL .framer-ydx2or-container { width: 100%; }}`, `@media (max-width: 809.98px) { .framer-PmsYL.framer-7li15u { width: 390px; } .framer-PmsYL .framer-xg7dm1 { flex-direction: column; padding: 120px 40px 80px 40px; } .framer-PmsYL .framer-omzv64 { flex: none; flex-direction: column; gap: 31px; padding: 7px 0px 7px 0px; width: 100%; } .framer-PmsYL .framer-1r39haz, .framer-PmsYL .framer-kxwu5z, .framer-PmsYL .framer-1st75vm, .framer-PmsYL .framer-1ite788, .framer-PmsYL .framer-vloqvf, .framer-PmsYL .framer-gau0y9, .framer-PmsYL .framer-1gkoo9s { flex: none; width: 100%; } .framer-PmsYL .framer-1oy0ue8 { height: 171px; width: 366px; } .framer-PmsYL .framer-1qm5kfg { padding: 80px 20px 80px 20px; } .framer-PmsYL .framer-15ragto, .framer-PmsYL .framer-ydx2or-container { width: 100%; } .framer-PmsYL .framer-uctoao { gap: 24px; padding: 0px; } .framer-PmsYL .framer-1ot9atf, .framer-PmsYL .framer-zcvpk2 { flex-direction: column; gap: 24px; } .framer-PmsYL .framer-1n2pzpz { flex-direction: column; padding: 40px 20px 40px 20px; } .framer-PmsYL .framer-hx9q8w, .framer-PmsYL .framer-1u26p8b { gap: 20px; }}`], `framer-PmsYL`), ze = $, $.displayName = `Page`, $.defaultProps = {
+        height: 4022,
+        width: 1200
+    }, m($, [{
+        explicitInter: !0,
+        fonts: [{
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+            url: `/fonts/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+            url: `/fonts/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+1F00-1FFF`,
+            url: `/fonts/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0370-03FF`,
+            url: `/fonts/lEJLP4R0yuCaMCjSXYHtJw72M.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+            url: `/fonts/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+            url: `/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+            url: `/fonts/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+            url: `/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+            url: `/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+1F00-1FFF`,
+            url: `/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0370-03FF`,
+            url: `/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+            url: `/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+            url: `/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `framer`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+            url: `/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
+            weight: `400`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `google`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            url: `https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2`,
+            weight: `600`
+        }, {
+            cssFamilyName: `Inter`,
+            source: `google`,
+            style: `normal`,
+            uiFamilyName: `Inter`,
+            url: `https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2`,
+            weight: `500`
+        }, {
+            cssFamilyName: `Poppins`,
+            source: `google`,
+            style: `normal`,
+            uiFamilyName: `Poppins`,
+            url: `https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9V15vFP-KUEg.woff2`,
+            weight: `500`
+        }]
+    }, ...H, ...W, ..._e, ...ve, ...ye, ...be, ...re(D)], {
+        supportsExplicitInterCodegen: !0
+    }), Be = {
+        exports: {
+            default: {
+                type: `reactComponent`,
+                name: `Framerftj9Wtl0w`,
+                slots: [],
+                annotations: {
+                    framerContractVersion: `1`,
+                    framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"ds2v4Ve8R":{"layout":["fixed","auto"]},"xSx1N_EiT":{"layout":["fixed","auto"]}}}`,
+                    framerIntrinsicWidth: `1200`,
+                    framerAutoSizeImages: `true`,
+                    framerAcceptsLayoutTemplate: `true`,
+                    framerDisplayContentsDiv: `false`,
+                    framerIntrinsicHeight: `4022`,
+                    framerColorSyntax: `true`,
+                    framerComponentViewportWidth: `true`,
+                    framerScrollSections: `{"UeW8M8x6r":{"pattern":":UeW8M8x6r","name":"about"},"HH2E4mc9g":{"pattern":":HH2E4mc9g","name":"features-2"},"OVVQvoABH":{"pattern":":OVVQvoABH","name":"faq"},"MqzH8etJH":{"pattern":":MqzH8etJH","name":"faq"}}`,
+                    framerImmutableVariables: `true`,
+                    framerResponsiveScreen: ``
+                }
+            },
+            Props: {
+                type: `tsType`,
+                annotations: {
+                    framerContractVersion: `1`
+                }
+            },
+            __FramerMetadata__: {
+                type: `variable`
+            }
+        }
+    }
+}))();
+export {
+    Be as __FramerMetadata__, ze as
+    default
+};
 //# sourceMappingURL=_FziiWN9Ng1nbQmdFVlIGILBsFz-fuXHK6Q4LMHvi4c.D3_V88lJ.mjs.map
