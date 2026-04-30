@@ -7,7 +7,7 @@ Seferi AI lojistik platformunun resmi web sitesi.
 - ✅ **Yerel Medya Dosyaları**: Tüm resimler, videolar ve fontlar yerel olarak sunuluyor
 - ✅ **Framer Animasyonları**: Orijinal Framer animasyonları ve etkileşimler korundu
 - ✅ **Çok Dilli**: Türkçe ve İngilizce dil desteği
-- ✅ **Dinamik İçerik**: Merkezi içerik yönetim sistemi (`src/config/content.ts`)
+- ✅ **Beautified JavaScript**: Düzenlenebilir JavaScript dosyası
 - ✅ **SEO Optimizasyonu**: Meta tag'ler ve sosyal medya paylaşımları için optimize edildi
 
 ## 📁 Proje Yapısı
@@ -18,13 +18,11 @@ seferi-nextjs/
 │   ├── images/            # Resimler (36 dosya)
 │   ├── videos/            # Videolar (1 dosya)
 │   ├── fonts/             # Fontlar (246 dosya)
-│   ├── framer-js/         # Framer JavaScript modülleri
+│   ├── framer-js/         # Framer JavaScript modülleri (beautified)
 │   └── *.html             # Statik HTML sayfaları
 ├── src/
 │   ├── app/               # Next.js sayfaları
 │   ├── components/        # React bileşenleri
-│   ├── config/            # Konfigürasyon dosyaları
-│   │   └── content.ts     # İçerik yönetimi (metinler burada!)
 │   └── lib/               # Yardımcı fonksiyonlar
 ├── scripts/               # Yardımcı scriptler
 │   ├── download-images.js        # Medya dosyalarını indir
@@ -56,31 +54,27 @@ Tarayıcıda aç: http://localhost:3002
 
 ## 📝 İçerik Düzenleme
 
-Tüm metinler `src/config/content.ts` dosyasında merkezi olarak yönetiliyor.
+Site metinleri beautified JavaScript dosyasında bulunuyor:
+
+**Dosya:** `public/framer-js/2c1TCg2uvsjjjNrz0eqL6wpvgJosf_M-KVJsxNZf4tI.B5erhKoJ.mjs`
+
+### Metin Düzenleme:
+1. Dosyayı bir metin editöründe aç (VS Code önerilir)
+2. `children: \`metin burada\`` pattern'ini ara
+3. Metni düzenle
+4. Kaydet
+5. Sayfayı yenile
 
 ### Örnek:
-```typescript
-export const content = {
-  tr: {
-    hero: {
-      title: "Seferi AI",
-      subtitle: "Lojistik operasyonlarınızı gelişmiş yapay zeka...",
-    }
-  },
-  en: {
-    hero: {
-      title: "Seferi AI",
-      subtitle: "Improve your logistics operations...",
-    }
-  }
-};
+```javascript
+children: `Lojistik Operasyonlarınızı Optimize Edin`
 ```
 
-**Değişiklik yapmak için:**
-1. `src/config/content.ts` dosyasını aç
-2. İlgili metni düzenle
-3. Kaydet
-4. Sayfa otomatik yenilenecek
+**⚠️ Önemli Notlar:**
+- Düzenleme yapmadan önce dosyanın yedeğini alın
+- JavaScript syntax'ını bozmayın
+- Backtick (\`) karakterlerini koruyun
+- Özel karakterleri escape edin (örn: `\'` için `\\'`)
 
 ## 🎨 Medya Dosyaları
 
@@ -147,10 +141,10 @@ npm run export
 - CSS animasyonları çalışıyor
 - Hover efektleri aktif
 
-### İçerik Yönetimi
-- Tüm metinler `src/config/content.ts` dosyasında
-- HTML dosyalarını düzenlemeye gerek yok
-- Merkezi içerik yönetimi ile kolay güncelleme
+### İçerik Düzenleme
+- Metinler beautified JavaScript dosyasında
+- Doğrudan düzenlenebilir
+- Yedek almayı unutmayın
 
 ## 🐛 Sorun Giderme
 
